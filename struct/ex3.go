@@ -15,4 +15,6 @@ func main() {
 	rect3 := Rectangle{width: 30} // 구조체 필드를 지정하여 값 초기화
 
 	fmt.Println(rect1, rect2, rect3)
+
+	fmt.Printf("%p %p %p", &rect1, &rect2, &rect3)
 }
